@@ -1,0 +1,58 @@
+@import "./less/base";
+@import './less/flex';
+
+:global{
+	#root {
+		height: 100%;
+	}
+	.primary-text {
+		color: @primary-color;
+	}
+	.sec-text {
+		color: @sec-color;
+	}
+	.ant-affix {
+		pointer-events: none;
+	}
+	body {
+		padding:0 !important;
+	}
+	#components-layout-outer .header {
+		box-shadow: @box-shadow-base;
+	}
+	#components-layout-outer .trigger {
+		font-size: 18px;
+		line-height: 64px;
+		padding: 0 24px;
+		cursor: pointer;
+		transition: color .3s;
+	}
+
+	#components-layout-outer .trigger:hover {
+		color: @primary-color;
+	}
+
+	#components-layout-outer .logo {
+		height: 32px;
+		background: rgba(255,255,255,.2);
+		margin: 16px;
+	}
+	.nav_link {
+		display: block;
+		line-height: 40px;
+		padding-left: 40px;
+		font-size: 14px;
+		color: #ccc;
+		&:active,
+		&:focus {
+			text-decoration: none;
+		}
+		&:hover {
+			color:#fff;
+		}
+		&.active {
+			background-color: @primary-color;
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+import React from 'react';
+import style from './less/${NAME}.less'
+
+export default class ${NAME-U}Page extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        }
+    }
+
+    componentWillMount(){
+        //渲染开始时
+    }
+
+    componentDidMount(){
+        //渲染完成时
+    }
+
+    componentWillUnmount(){
+        //页面卸载时
+    }
+
+    render(){
+        return <div>${NAME-U}</div>
+    }
+
+}

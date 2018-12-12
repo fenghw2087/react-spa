@@ -1,0 +1,1 @@
+webpackJsonp([1],{UnLj:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var u=function(e){return e&&e.__esModule?e:{default:e}}(n("GiK3")),a=n("F8kA");t.default=function(){return u.default.createElement("div",null,"333333333333333",u.default.createElement(a.Link,{to:"/page2"},"to page2"))}}});

@@ -1,0 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ${NAME-U}Page from "../page/${NAME}/${NAME}";
+import '../common/globel.less';
+
+
+ReactDOM.render(
+    <${NAME-U}Page />,
+    document.getElementById('root'));
