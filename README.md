@@ -1,7 +1,17 @@
+使用react+antd+react-router4.0构建的单页应用
 
-参数传递方式
+使用less
 
-1.页面使用了react-router 4.0 的 hashRouter
-  
-  在route的path里配置最后一个参数为接受参数，所有跳转的参数，以base64的格式塞在这个参数里。
-  调用objexbase64里的两个方法，进行参数加解密。
+使用css module
+
+使用flex布局，因此不兼容IE10以下浏览器
+
+使用lazy-load
+
+使用jQuery中的ajax作为请求方式
+
+jq-component中为一套jquery组件库，可拎出来单独使用，使用时必须引入jquery/bootstrap/font-awesome
+
+通过script方式引入babel-polyfill
+
+使用font-awesome作为图标库
